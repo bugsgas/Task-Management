@@ -37,6 +37,23 @@
   margin-top: 20px;
 }
 
+.btn-edit {
+  padding-top: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.btn-edit button {
+  margin: 5px;
+}
+
+.btn-edit .btn.delete:hover {
+  background-color: red;
+  color: white;
+  border: 1px solid red
+}
+
 /* project comments */
 .project-comments label {
   margin-bottom: 0px;

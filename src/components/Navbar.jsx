@@ -4,7 +4,7 @@ import { useAuthContext } from '../hooks/useAuthContext'
 
 // styles & images
 import './Navbar.css'
-import Temple from '../assets/temple.svg'
+import Temple from '../assets/logo.png'
 
 
 export default function Navbar() {

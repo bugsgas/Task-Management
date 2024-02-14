@@ -16,6 +16,7 @@ export default function Login() {
   }
 
   return (
+    <>
     <form className='auth-form' onSubmit={handleSubmit}>
       <h2>Login</h2>
       <label>
@@ -40,6 +41,9 @@ export default function Login() {
       {!isPending && <button className="btn">Login</button>}
       {isPending && <button className="btn" disabled>Loading</button>}
       {error && <div className="error">{error}</div> }
+
+      <p>For testing email:user@test.dev pass:user123</p>
     </form>
+    </>
   )
 }
