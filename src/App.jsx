@@ -40,7 +40,7 @@ export default function App() {
             path="/create" 
             element={user ? <Create /> : <Navigate to="/login" />} />
           <Route 
-            path="/projects:id" 
+            path="/projects/:id" 
             element={user ? <Project /> : <Navigate to="/login" />} />
           {/* <Route path="/create" element={<Create />}/>
           <Route path="/projects:id" element={<Project />}/> */}
